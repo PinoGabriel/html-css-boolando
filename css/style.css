@@ -118,3 +118,27 @@ span.strike {
     right: 387px;
 }
 
+.sos-webp6 {
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding: 3px 10px;
+    position: absolute;
+    bottom: 95px;
+    right: 344px;
+}
+
+/****** CAMBIARE IMMAGINE ******/
+
+.cambioimg:hover .img-first {
+    display: none;
+}
+
+.cambioimg:hover .img-second {
+    display: block;
+}
+
+.img-first {display: block;}
+
+.img-second {display: none;}
