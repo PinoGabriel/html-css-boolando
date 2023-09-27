@@ -2,6 +2,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/****** INIZIO HEADER ******/
+#ombra { 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .container {
     width: 1400px;
     margin: 0 auto;
@@ -26,10 +31,10 @@ body {
     height: 30px;
 }
 
-#ombra { 
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+/****** FINE HEADER ******/
 
+
+/****** INIZIO MAIN ******/
 .position-immagine {
     position: relative;
 }
@@ -136,6 +141,9 @@ span.strike {
     right: 387px;
 }
 
+/****** FINE MAIN ******/
+
+
 /****** CAMBIARE IMMAGINE ******/
 
 .cambioimg:hover .img-first {
@@ -150,6 +158,8 @@ span.strike {
 
 .img-second {display: none;}
 
+/****** FINE CAMMBIO IMMAGINE ******/
+
 
 /******* FOOTER *******/
 
@@ -160,3 +170,5 @@ span.strike {
 .footer-item-left {
     padding: 5px 0;
 }
+
+/******* FINE FOOTER *******/
