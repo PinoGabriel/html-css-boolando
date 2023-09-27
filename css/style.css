@@ -142,3 +142,14 @@ span.strike {
 .img-first {display: block;}
 
 .img-second {display: none;}
+
+
+/******* FOOTER *******/
+
+.footer-item {
+    color: white;
+}
+
+.footer-item-left {
+    padding: 5px 0;
+}

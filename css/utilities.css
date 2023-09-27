@@ -39,6 +39,14 @@
 .py-16 { padding: 16px 0; }
 .px-16 { padding: 0 16px; }
 
+.p-32 { padding: 32px; }
+.pt-32 { padding-top: 32px; }
+.pr-32 { padding-right: 32px; }
+.pb-32 { padding-bottom: 16px; }
+.pl-32 { padding-left: 32px; }
+.py-32 { padding: 32px 0; }
+.px-32 { padding: 0 32px; }
+
 .p-64 { padding: 64px; }
 .pt-64 { padding-top: 64px; }
 .pr-64 { padding-right: 64px; }
@@ -118,9 +126,8 @@
 }
 
 /*** TEXT ALLINEATO ***/
-.t-align-center {
-    text-align: center;
-}
+.t-align-center {text-align: center;}
+.t-align-right {text-align: right;}
 
 /*** FONT WEIGHT ***/
 .fWeight-100 { font-weight: 100; }
